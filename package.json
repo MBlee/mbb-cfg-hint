@@ -1,6 +1,6 @@
 {
   "name": "@coswars/mbb-hint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "提示命令行",
   "main": "./bin/index.js",
   "type": "module",
