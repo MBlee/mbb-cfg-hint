@@ -6,7 +6,6 @@ import { Command } from 'commander';
 import chalk from 'chalk';
 import clipboard from 'clipboardy';
 
-import { help } from './module/help.js';
 import { hosts } from './module/hosts.js';
 
 interface TCMD extends Command {
@@ -19,7 +18,6 @@ cmd.useCmd = function (cmd) {
 cmd.version('1.0.0');
 
 /* 命令行模块 */
-cmd.useCmd(help);
 cmd.useCmd(hosts);
 
 cmd.parse();
